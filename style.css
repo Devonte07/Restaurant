@@ -1,0 +1,285 @@
+
+/* bh => #fff7ce 
+
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Titillium Web', sans-serif;
+
+
+*/
+
+.top-header a:hover {
+    color: #fff7ce;
+}
+
+.bottom-nav a{
+    color: #fff7ce;
+}
+
+.main-nav {
+    border: solid #dc3545 1px;
+    background-color: #dc3545;
+    margin-left: 4px;
+}
+
+.main-nav:hover {
+    color: black;
+    background-color: #fff7ce;
+}
+
+.nav-item a{
+    color: #fff7ce;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .toggle-button{
+        display: flex;
+    }
+
+    .main-nav {
+        display: none;
+    }
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.middle-header {
+    height: 100px;
+    padding-top: 20px;
+}
+
+.bottom-header{
+    background-color: #fff7ce;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.bottom-header p {
+    font-family: 'Titillium Web', sans-serif;
+    width: 165px;
+}
+
+.search {
+    color: darkred;
+    background-color: #fff7ce;
+    border: 1px solid darkred;
+    border-left: none;
+}
+
+.search-bar {
+    margin-right: -6px;
+    background-color: #fff7ce;
+    border:1px solid darkred;
+    border-right: none;
+}
+
+.hero-section {
+    background-image: url(../media/steak1.webp);
+}
+
+/* .hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, );
+} */
+
+.carousel-header-top {
+    margin-top: 250px;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel-header-bottom {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel-box {
+    /* height: 675px; */
+    /* padding-top: 140px; */
+    text-align: center;
+    position: relative;
+}
+
+.inside-div {
+    width: 475px;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff0ce68;
+    padding: 20px;
+    font-style: italic;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5) ;
+}
+
+.inside-div p {
+    color:#36181a;
+}
+
+,.inside-header p {
+    font-family:'Titillium Web', sans-serif;
+}
+
+.hero-section1 {
+    height: 200px;
+    background-image: url(../media/steak1.webp);
+}
+
+.steak1 {
+    background-image: url(../media/steak1.webp);
+    background-size: cover;
+}
+
+.section1 h2, .section2 h2{
+    margin-bottom: 0;
+    color: red;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.section1, .section2 {
+    padding-bottom: 40px;
+    background-color: #f5eedc;
+}
+
+.section1 {
+    padding: 25px;
+}
+
+.middle-section {
+    width: 346px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) ; ;
+}
+
+.about-section {
+    /* padding-right: 20px; */
+    /* padding-left: 10px; */
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+.about-section h2{
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    padding-left: 10px;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.section3{
+    background-color: #f9f5ea;
+    padding: 25px;
+}
+
+.section3 h2{
+    margin-bottom: 40px;
+    color: #36181a ;
+}
+.section3 h3{
+    color: #969902;
+}
+
+.section3-header {
+    margin-bottom: 0;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+.section3 p {
+    margin-left: 35px;
+}
+
+.section3 a {
+    color: red;
+    margin-left: 35px;
+}
+
+.client-logo1 {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.client-logo{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.top-footer{
+    background-color: #686560;
+    height: 100px;
+}
+
+.top-footer h2 {
+    padding-top: 30px;
+    color: #84817c;
+    margin-left: 80px;
+}
+
+.middle-footer{
+    background-color: #5c5954;
+}
+
+.middle-footer p {
+    color: #84817c;
+}
+
+.middle-footer a {
+    color: white;
+}
+
+.middle-footer h2 , h3 {
+    color: white;
+}
+
+.middle-footer h3 {
+    font-size: 15px;
+}
+
+.email {
+    font-size: 20px;
+}
+
+.bottom-footer{
+    background-color:#413e39;
+}
+
+.bottom-footer p, h2{
+    color: white;
+}
